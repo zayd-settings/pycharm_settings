@@ -1,0 +1,19 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="NodePackageJsonFileManager">
+        <packageJsonPaths />
+      </component>
+      <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 2.7.14 (sftp://zhammoud@hb.ucsc.edu:22/hb/home/zhammoud/anaconda/envs/conda-2.7.14/bin/python)" project-jdk-type="Python SDK" />
+      <component name="PropertiesComponent">
+        <property name="last_opened_file_path" value="$USER_HOME$/virtualenv/tensorflow/bin/python3" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="settings.editor.selected.configurable" value="ics" />
+      </component>
+      <component name="PublishConfigData" autoUpload="On explicit save action" autoUploadExternalChanges="true">
+        <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

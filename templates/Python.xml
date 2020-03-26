@@ -1,0 +1,12 @@
+<templateSet group="Python">
+  <template name="pmdoc" value="# -*- utf-8 -*-&#10;r&quot;&quot;&quot;&#10;    $FILE_INFO$&#10;    $FILE_INFO_TILDE$&#10;&#10;    $DESCRIPTION$&#10;&#10;    :copyright: (c) $DATE$ by Zayd Hammoudeh.&#10;    :license: $LICENSE$, see LICENSE for more details.&#10;&quot;&quot;&quot;" description="Module Level Docstrings" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE_INFO" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="FILE_INFO_TILDE" expression="regularExpression(fileName(), &quot;.&quot;, &quot;~&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="DESCRIPTION" expression="DESCRIPTION" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date(&quot;yyyy&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="LICENSE" expression="" defaultValue="MIT" alwaysStopAt="false" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

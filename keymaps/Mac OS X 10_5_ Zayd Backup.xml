@@ -1,0 +1,43 @@
+<keymap version="1" name="Mac OS X 10.5+ Zayd Backup" parent="Mac OS X 10.5+">
+  <action id="ChooseDebugConfiguration" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+  <action id="DecreaseColumnWidth" />
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+  </action>
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="IncreaseColumnWidth" />
+  <action id="IncrementWindowWidth" />
+  <action id="Log.GoToNextError" />
+  <action id="Log.JumpToSource" />
+  <action id="NextDiff" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta right" />
+  </action>
+  <action id="PreviousDiff" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta left" />
+  </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
+  <action id="StepInto" />
+  <action id="VimWindowDown">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="down" />
+  </action>
+  <action id="VimWindowLeft">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="left" />
+  </action>
+  <action id="VimWindowRight">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="right" />
+  </action>
+  <action id="VimWindowUp">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="up" />
+  </action>
+</keymap>
